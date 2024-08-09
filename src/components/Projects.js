@@ -106,24 +106,24 @@ export const Projects = () => {
                 <h2>My Greatest Achievemnts</h2>
                 <p>Welcome to the highlight reel of my journey, showcasing my accomplishments in education, profession, and personal growth.
                     <br/><br/>
-                    Educational
+                    Educational Achievements:
                     I've pursued a major in artificial intelligence at Swinburne University of Technology, where I've achieved academic excellence and embraced a love for learning.
                     <br/><br/>
-                    Professional
+                    Professional Achievements:
                     As the founder of Eden, I've worked on innovative projects and collaborated with diverse teams to create impactful solutions that blend technology and creativity.
                     <br/><br/>
-                    Personal
+                    Personal Achievements:
                     Living in seven countries and exploring different cultures has enriched my life, fueling my passion for exploration, resilience, and building meaningful connections.</p>
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>
-                      <Nav.Link eventKey="first">Educational Achievements:</Nav.Link>
+                      <Nav.Link eventKey="first">Educational</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="second">Professional Achievements:</Nav.Link>
+                      <Nav.Link eventKey="second">Professional</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="third">Personal Achievements:</Nav.Link>
+                      <Nav.Link eventKey="third">Personal</Nav.Link>
                     </Nav.Item>
                   </Nav>
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
